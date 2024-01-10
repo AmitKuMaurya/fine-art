@@ -75,6 +75,7 @@
 .secondFloor {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     height: 100vh;
     gap: 3%;
     /* width: 90vw; */
@@ -300,4 +301,9 @@ cursor: pointer;
     width: 15%;
     margin-bottom: 2%;
     object-fit: contain cover;
+}
+
+.seventhFloor {
+    max-width: 90vw;
+    margin: auto;
 }
