@@ -27,7 +27,7 @@ import Vector3 from "../../assets/fourth_floor/layer4.png";
 // fifth floor
 import Rectangle80 from "../../assets/fifthFloor/Rectangle80.png";
 
-const Home = () => {
+export const HomePage = () => {
   const images = [
     Rectangle18,
     Rectangle19,
@@ -152,5 +152,3 @@ const Home = () => {
     </>
   );
 };
-
-export default Home;
