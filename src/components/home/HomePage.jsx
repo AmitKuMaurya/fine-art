@@ -19,9 +19,9 @@ import Theme109 from "../../assets/third_section_imgs/Frame109.png";
 import Theme110 from "../../assets/third_section_imgs/Frame110.png";
 
 // images for fourth floor
-import Vector0 from "../../assets/fourth_floor/layer1.png";
-import Vector1 from "../../assets/fourth_floor/layer2.png";
-import Vector2 from "../../assets/fourth_floor/layer3.png";
+import Vector0 from "../../assets/fourth_floor/Layer1.png";
+import Vector1 from "../../assets/fourth_floor/Layer2.png";
+import Vector2 from "../../assets/fourth_floor/Layer3.png";
 import Vector3 from "../../assets/fourth_floor/layer4.png";
 
 // fifth floor
