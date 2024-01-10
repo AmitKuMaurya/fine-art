@@ -3,8 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
-import AllRoutes from './components/routes/AllRoutes'
+// import AllRoutes from './components/routes/AllRoutes'
 import Footer from './components/footer/Footer'
+import Home from './components/Home/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <AllRoutes/>
+      <Home/>
       <Footer/>
     </>
   )
