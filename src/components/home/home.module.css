@@ -146,6 +146,7 @@ color: rgb(62, 61, 61);
 .thirdSection {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     height: 100vh;
     gap: 4%;
     /* width: 90vw; */
