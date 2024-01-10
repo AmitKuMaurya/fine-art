@@ -27,6 +27,10 @@ import Vector3 from "../../assets/fourth_floor/layer4.png";
 // fifth floor
 import Rectangle80 from "../../assets/fifthFloor/Rectangle80.png";
 
+import Profile1 from "../../assets/sixth_section/Profile1.png"
+import Profile2 from "../../assets/sixth_section/Profile2.png"
+import Profile3 from "../../assets/sixth_section/Profile3.png"
+
 export const HomePage = () => {
   const images = [
     Rectangle18,
@@ -50,6 +54,12 @@ export const HomePage = () => {
     {img : Vector2 , desc : "Expert Guides For You"},
     {img : Vector3, desc : "Guaranteed quality at the best price!"}
   ]
+
+  const sixthFloorItem = [{img : Profile1, name : "Rohit Sain", desc : "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+{img : Profile2, name : "Maya Singh", desc : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet"},
+{img : Profile3, name : "Suraj Kumar", desc : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."}
+]
+
   return (
     <>
       <div className={styles.homeContainer}>
@@ -148,6 +158,25 @@ export const HomePage = () => {
               </div>
             </div>
             </div>
+
+              
+        {/* Sixth Section */}
+        <div className={styles.sixthSection}>
+            <h1>I Feedback</h1>
+          <div className={styles.sixthSecContent}>
+                {
+                  sixthFloorItem.map((ele)=>{
+                    return <div>
+                      <img src={ele.img} alt={ele.name} />
+                      <div>{ele.name}</div>
+                      <div>{ele.desc}</div>
+                    </div>
+                  })
+                }
+          </div>
+        </div>
+
+
       </div>
     </>
   );

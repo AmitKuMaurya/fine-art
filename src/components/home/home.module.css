@@ -273,3 +273,31 @@ cursor: pointer;
 .fifthContent > div:nth-child(2) > img  {
     width: 85%;
 }
+
+.sixthSection {
+    max-width: 90vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.sixthSection > .sixthSecContent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto;
+    gap: 5%;
+}
+
+.sixthSection > .sixthSecContent > div {
+    padding: 3% 3%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* border: 2px solid red; */
+}
+
+.sixthSection > .sixthSecContent > div > div {
+    color: grey;
+}
+.sixthSection > .sixthSecContent > div > img {
+    width: 15%;
+    margin-bottom: 2%;
+    object-fit: contain cover;
+}
