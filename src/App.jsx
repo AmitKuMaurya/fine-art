@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 // import AllRoutes from './components/routes/AllRoutes'
 import Footer from './components/footer/Footer'
-import Home from './components/Home/Home'
+import Home from './components/home/Home'
 
 function App() {
   const [count, setCount] = useState(0)

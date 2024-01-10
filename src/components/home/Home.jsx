@@ -1,4 +1,4 @@
-import React, { version } from "react";
+import React from "react";
 import styles from "./home.module.css";
 import Rectangle18 from "../../assets/second_section_img/Rectangle18.png";
 import Rectangle19 from "../../assets/second_section_img/Rectangle19.png";
