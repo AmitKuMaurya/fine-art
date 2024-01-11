@@ -27,9 +27,17 @@ import Vector3 from "../../assets/fourth_floor/layer4.png";
 // fifth floor
 import Rectangle80 from "../../assets/fifthFloor/Rectangle80.png";
 
+// sixth floor Content
 import Profile1 from "../../assets/sixth_section/Profile1.png";
 import Profile2 from "../../assets/sixth_section/Profile2.png";
 import Profile3 from "../../assets/sixth_section/Profile3.png";
+
+// seventh floor Content.
+import Theme1 from "../../assets/seventh_section/Frame112.png";
+import Theme2 from "../../assets/seventh_section/Frame113.png";
+import Theme3 from "../../assets/seventh_section/Frame114.png";
+import Theme4 from "../../assets/seventh_section/Frame115.png";
+import Theme5 from "../../assets/seventh_section/Frame116.png";
 
 export const HomePage = () => {
   const images = [
@@ -75,6 +83,14 @@ export const HomePage = () => {
       name: "Suraj Kumar",
       desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     },
+  ];
+
+  const SeventhFloorImgs = [
+    {img : Theme5},
+    {img : Theme1},
+    {img : Theme2},
+    {img : Theme3},
+    {img : Theme4}
   ];
 
   return (
@@ -204,11 +220,17 @@ export const HomePage = () => {
         {/* Seventh Section of homopage */}
 
         <div className={styles.seventhFloor}>
-          <h2>Recommended categories to stay inspired!</h2>
-            <h3>Browse this selection of curated categories created for you.</h3>
-            <div className={styles.seventhContnet}>
-
-            </div>
+          <div>
+            <span>Recommended categories</span> to stay inspired!
+          </div>
+          <div>
+            Browse this selection of curated categories created for you.
+          </div>
+          <div className={styles.seventhContnet}>
+            {
+              SeventhFloorImgs && SeventhFloorImgs?.map((ele)=> <img src={ele?.img} alt={ele.img} />)
+            }
+          </div>
         </div>
       </div>
     </>

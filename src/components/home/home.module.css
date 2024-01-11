@@ -2,8 +2,6 @@
     position: relative;
 }
 .homeBanner {
-    /* margin-top: 0px;
-    padding-top: 0px; */
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -298,13 +296,80 @@ cursor: pointer;
 .sixthSection > .sixthSecContent > div > div {
     color: grey;
 }
+
 .sixthSection > .sixthSecContent > div > img {
     width: 15%;
     margin-bottom: 2%;
     object-fit: contain cover;
 }
-
+/* working on seventh floor */
 .seventhFloor {
     max-width: 90vw;
+    height: 100vh;
     margin: auto;
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.seventhFloor > div:nth-child(1) {
+    padding-top: 8vh;
+    text-align: center;
+    font-size: x-large;
+}
+
+.seventhFloor > div:nth-child(2) {
+    margin-top: -2vh;
+    padding-bottom: 5vh;
+    color: grey;
+    text-align: center;
+    font-size: medium;
+}
+
+.seventhFloor > div:nth-child(1) > span {
+ color: rgb(43,59,140);
+}
+
+.seventhContnet {
+    display: grid;
+    grid-template-columns: 26% 20% 25%;
+    max-height: 70vh;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: "left left top-left top-right"
+                         "left left top-left top-right"
+                         "left left below-left below-right"
+                         "left left below-left below-right";
+    gap: 1vw;
+}
+.seventhContnet > img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid slateblue; */
+    object-fit: fill;
+}
+
+.seventhContnet > img:nth-child(1) {
+    grid-area: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.seventhContnet > img:nth-child(2) {
+    grid-area: top-left;
+    object-fit: contain cover;
+}
+.seventhContnet > img:nth-child(3) {
+    border-top-right-radius: 5px;
+    grid-area: top-right;
+}
+.seventhContnet > img:nth-child(4) {
+    grid-area: below-left;
+}
+.seventhContnet > img:nth-child(5) {
+    border-bottom-right-radius: 5px;
+    grid-area: below-right;
+}
+
+.seventhContnet > img:nth-child(1):hover {
+    cursor: pointer;
 }
