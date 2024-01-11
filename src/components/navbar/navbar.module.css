@@ -3,7 +3,6 @@
     position: absolute;
     position: fixed;
     backdrop-filter: blur(10px);
-    /* box-shadow: 0 20px 30px rgba(255, 255, 255, 0.15); */
     z-index: 10;
     /* position: fixed; */
     /* top: 0; */

@@ -35,6 +35,31 @@
     list-style: none;
 }
 
+.details > button{
+    padding: 10px 18px;
+    font-size: small;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(43,59,140);
+}
+.details > button:hover {
+    cursor: pointer;
+}
+
+.details > h5:last-child {
+    margin-top: -2vh;
+
+}
+
+.text {
+    color: black;
+    list-style: none;
+}
+.text:hover{
+    list-style-type: circle;
+}
+
 .topHeader >  div:nth-child(2) {
     /* border: 1px solid red; */
     display: grid;
@@ -55,7 +80,7 @@
 
 .bottom_header {
     /* height: 10vh; */
-    padding: 2% 2%;
+    padding: 2% 0 2% 0;
     display: grid;
     /* border: 1px solid red; */
     grid-template-columns: 45% 45%;
@@ -63,6 +88,7 @@
     /* align-items: center; */
     justify-content: space-between;
 }
+
 .bottom_header > div:nth-child(1) {
     /* color: red; */
     /* border: 1px solid red; */
@@ -93,6 +119,6 @@
 }
 
 .footContainer > div:last-child {
-    color: rgb(190,188,189);
+    color: rgb(210,214,218);
     font-size: small;
 } 
