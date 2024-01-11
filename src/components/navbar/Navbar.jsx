@@ -1,38 +1,38 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { GrFavorite } from "react-icons/gr";
 import { LiaUser } from "react-icons/lia";
 import { PiHandbag } from "react-icons/pi";
 import { CiSearch } from "react-icons/ci";
+import {underlineStyles} from "../../constants/common.constant"
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
-  const underlineStyles = { textDecoration: "none" };
 
   return (
     <>
       <div className={styles.box}>
         <nav className={styles.navbar}>
           {/* Logo */}
-          <div className={styles.logo}>ShilpSaga</div>
+          <Link style={underlineStyles} to={"/"}><div className={styles.logo}>ShilpSaga</div></Link>
           {/* Navigation Tab */}
           <div className={styles.navTab}>
             <ul>
-              {/* <Link style={underlineStyles}> */}
+              <Link style={underlineStyles}>
                 <li className={styles.text}>Designs</li>
-              {/* </Link> */}
-              {/* <Link style={underlineStyles}> */}
+              </Link>
+              <Link style={underlineStyles}>
                 <li className={styles.text}>Categories</li>
-              {/* </Link> */}
-              {/* <Link style={underlineStyles}> */}
+              </Link>
+              <Link style={underlineStyles}>
                 <li className={styles.text}>Pricing</li>
-              {/* </Link> */}
-              {/* <Link style={underlineStyles}> */}
+              </Link>
+              <Link style={underlineStyles}>
                 <li className={styles.text}>Trends</li>
-              {/* </Link> */}
-              {/* <Link style={underlineStyles}> */}
+              </Link>
+              <Link style={underlineStyles}>
                 <li className={styles.text}>About Us</li>
-              {/* </Link> */}
+              </Link>
             </ul>
           </div>
           {/* Search options */}
