@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
          </div>
          {/* bottom sectoin */}
-         <div>
+         <div className={styles.bottom_header}>
             <div>
             If you didn’t find the products you are interested in or have questions?
             </div>
