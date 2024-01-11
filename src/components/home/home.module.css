@@ -177,6 +177,7 @@ color: rgb(62, 61, 61);
 
 .thirdImgSection {
     display: grid;
+    /* margin: auto; */
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto auto;
     gap: 2%;
@@ -200,25 +201,36 @@ color: rgb(62, 61, 61);
     max-width: 100vw;
     background-color: rgb(213,213,213);
     height: 40vh;
+    position: relative;
+    
 }
 
 .fouthFloor > div {
-    max-width: 80vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    width: 80vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto auto;
+    gap: 1vw;
 }
 .fouthFloor > div > div {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 15px;
+    background-color: rgb(224,224,224);
     gap: 15px;
-    margin-top: 10vh;
+    padding: 5% 5% 5% 5%;
     align-items: center;
 }
+
 .fouthFloor > div > div > img {
-    max-width: 25%;
+    max-width: 20%;
 }
 
 .fifthFloor {
