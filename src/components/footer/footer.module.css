@@ -1,0 +1,98 @@
+.footContainer {
+    /* max-width: 90vw; */
+    margin: auto;
+    background-color: rgb(43,59,140);
+    padding: 3% 3% 3% 3%;
+}
+
+.topHeader {
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.topHeader >  div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 30% 20% 39% 10%;
+    grid-template-rows: auto auto auto auto;
+    /* border: 1px solid red; */
+}
+.topHeader >  div:nth-child(1) > div:first-child {
+    padding: 3% 3% 3% 3%;
+}
+.topHeader >  div:nth-child(1) > div:first-child > img {
+    width: 25%;
+    object-fit: cover contain;
+}
+.left_list > li:nth-child(1) {
+    list-style: none;
+    padding-bottom: 2vh;
+    color: rgb(190,188,189);
+    font-size: small;
+}
+.left_list > li{
+    list-style: none;
+}
+
+.topHeader >  div:nth-child(2) {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 32% 15% 35% 18%;
+}
+
+.topHeader >  div:nth-child(2) > div:nth-child(1) {
+    max-width: 15vw;
+    /* padding: 0 0 0 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topHeader >  div:nth-child(2) > div:nth-child(1):hover {
+    cursor: pointer;
+}
+
+.bottom_header {
+    /* height: 10vh; */
+    padding: 2% 2%;
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.bottom_header > div:nth-child(1) {
+    /* color: red; */
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 90%;
+}
+.bottom_header > div:nth-child(2) {
+    /* color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: white;
+}
+
+.bottom_header > div:nth-child(2) > input {
+    width: 80vh;
+    margin-top: 1vh;
+    padding: 3% 3% 3% 3%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(236,237,243);
+    font-size: medium;
+    border-radius: 12px;
+    outline: none;
+}
+
+.footContainer > div:last-child {
+    color: rgb(190,188,189);
+    font-size: small;
+} 
