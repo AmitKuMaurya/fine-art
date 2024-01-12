@@ -8,8 +8,8 @@ export default function SignUp() {
       <div className={styles.boxofContent}>
         <div >
           <h1>Sign In</h1>
-          <span>If you don’t have an account register</span>
-          <div>You can <span>Register here !</span></div>
+          <span>If you  have an account registered</span>
+          <div>You can <span>Login here !</span></div>
         </div>
         {/* <div> */}
           <form className={styles.formContent}>
@@ -19,26 +19,22 @@ export default function SignUp() {
             </div>
 
             <div>
-              <label>Password</label>
+              <label>Username</label>
               <input type="text" name="" id="" placeholder="Enter your password" />
             </div>
 
             <div>
-            <div>
-              <input type="checkbox" name="" id="" />
-              <label>Remember Me</label>
-            </div>
-
-              {/* <Link style={underlineStyles}> */}
-            <div>
-              Forgot Password ?
-            </div>
-              {/* </Link> */}
+              <label>Password</label>
+              <input type="password" name="" id="" placeholder="Enter your password" />
             </div>
 
             <div>
-              <button type="submit">Login</button>
-              <span>or Continue with</span>
+              <label>Confirm Password</label>
+              <input type="password" name="" id="" placeholder="Enter your password" />
+            </div>
+
+            <div>
+              <button type="submit">Sign Up</button>
             </div>
           </form>
         {/* </div> */}

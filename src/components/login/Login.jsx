@@ -46,9 +46,11 @@ export const Login = () => {
             </div>
 
             <div>
+              {/* <div> */}
               <FcGoogle size={34} />
               <GrApple size={34} />
               <FaFacebook size={34} color={"rgb(11,129,237)"} />
+              {/* </div> */}
             </div>
           </form>
         {/* </div> */}
