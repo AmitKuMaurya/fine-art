@@ -10,7 +10,6 @@ export default defineConfig({
       external: ['react-router-dom'],
     },
   },
-
 })
 
 // export default {
