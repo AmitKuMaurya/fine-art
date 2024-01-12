@@ -1,0 +1,127 @@
+.loginContainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    height: 100vh;
+    max-width: 100vw;
+    padding: 1% 1% 1% 1%;
+    /* border: 1px solid red; */
+}
+
+.loginContainer> div:nth-child(1){
+    display: flex;
+    border: 1px solid red;
+    max-width: 60vw;
+    flex-direction: column;
+    padding: 3% 3% 3% 17%;
+}
+
+/* .boxofContent > h1 { */
+    /* } */
+    
+    .boxofContent>div:first-child > div:last-child > span {
+        color: rgb(43,59,140);
+        font-weight: bold;
+        
+}
+
+.boxofContent > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContent > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContent > div:nth-child(1) > label {
+    margin-top: 6vh;
+}
+.formContent > div:nth-child(1) > input {
+    padding: 2% 3%;
+    width: 70%;
+    font-size: medium;
+    border: 0px;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.formContent > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+.formContent > div:nth-child(2) > label {
+    margin-top: 3vh;
+}
+.formContent > div:nth-child(2) > input {
+    padding: 2% 3%;
+    width: 70%;
+    font-size: medium;
+    border: 0px;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.formContent > div:nth-child(3) {
+    margin-top: 2vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: center; */
+    max-width: 75%;
+    /* border: 1px solid red; */
+}
+
+.formContent > div:nth-child(3) > div> label {
+    font-size: medium;
+}
+
+.formContent > div:nth-child(4) {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    max-width: 76%;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formContent > div:nth-child(4) > button {
+    width: 100%;
+    padding: 3% 0 3% 0;
+    background-color: rgb(43,59,140);
+    color: white;
+    font-size: medium;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.formContent > div:nth-child(4) > span {
+    margin-top: 3vh;
+    color: grey;
+    font-size: small;
+}
+
+.formContent > div:nth-child(5) {
+    border: 1px solid red;
+    max-width: 76%;
+    padding: 2% 2% 2% 2%;
+}
+
+
+
+.loginContainer > div:last-child {
+background-color: rgb(43,59,140);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 2%;
+}
+
+.loginContainer > div:last-child > img {
+    width: 60%;
+    /* padding: -2% -2% -2% -2%; */
+    object-fit: contain;
+}
