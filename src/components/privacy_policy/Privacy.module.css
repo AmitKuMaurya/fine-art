@@ -1,0 +1,84 @@
+.privacyContainer {
+    width: 100%;
+    max-width: 2500px;
+    position: relative;
+    padding-top: 100px;
+    background: #FCF9FF;
+}
+
+.content {
+    display: block;
+    margin-left: 133px;
+    margin-right: 133px;
+}
+
+.heading {
+    color: #2B3B8C;
+    font-family: Poppins;
+    font-size: 66.667px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.margin26 {
+    margin-top: 26px;
+}
+
+.margin30 {
+    margin-top: 30px;
+}
+
+.margin60 {
+    margin-top: 60px;
+}
+
+.margin93 {
+    margin-top: 93px;
+}
+
+.paddingb100 {
+    padding-bottom: 100px;
+}
+
+.text {
+    color: #202020;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.333px;
+    /* 155.556% */
+}
+
+.textItalic {
+    color: #202020;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration-line: underline;
+}
+
+.divbox {
+    border-radius: 26.667px;
+    background: #FFF;
+}
+
+.marginbox26 {
+    padding-top: 27px;
+    padding-bottom: 40px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.divhead {
+    color: #2B3B8C;
+    font-family: Poppins;
+    font-size: 37.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
