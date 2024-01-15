@@ -82,57 +82,16 @@ export const Product = () => {
                 </div>
 
                 <div>
-                    <div className={`${styles.margin150} `}>
 
 
-                        <div className={`  ${styles.container}`}>ecec</div>
-
-
-                    </div>
-
-                    <div className={`${styles.margin100} ${styles.content} ${styles.container} ${styles.margint25}`}>
+                    <div className={`${styles.mt100} ${styles.content} ${styles.container} `}>
                         <div className={styles.inlineflex}>
+                            <div className={` ${styles.box}`}></div>
+                            <div>
 
-                            <div > <img className={styles.abtimg} src={images[2]} /></div>
-                            <div className={`${styles.marginr25}`}></div>
-                            <div >
-                                <div className={styles.inlineflex}>
-                                    <div> <img className={styles.csimg} src={images[2]} /></div>
-                                    <div className={`${styles.marginr25}`}></div>
-                                    <div><img className={styles.csimg} src={images[2]} /></div>
-                                </div>
-                                <div className={`${styles.margint25}`}><img className={styles.cmimg} src={images[2]} /></div>
-                            </div>
-
-                        </div>
-                        <div className={`${styles.margint42} ${styles.btn} `}>
-                            <div className={` ${styles.btnt} `}>See more</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={`${styles.mb150}`}>
-                    <div className={`${styles.margin150}  `}>
-
-
-                        <div className={`${styles.heading}  ${styles.container}`}>Products by Trend</div>
-                        <div className={`${styles.margint42} `}>
-                            <div className={`${styles.heading2}  ${styles.container}`}>Apparel & Accessories</div>
-                        </div>
-
-                    </div>
-
-                    <div className={`${styles.margin100} ${styles.content} ${styles.container} ${styles.margint25}`}>
-                        <div className={styles.inlineflex}>
-
-
-                            <div >
-                                <div className={styles.inlineflex}>
-                                    <div> <img className={styles.csimg} src={images[2]} /></div>
-                                    <div className={`${styles.marginr25}`}></div>
-                                    <div><img className={styles.csimg} src={images[2]} /></div>
-                                </div>
-                                <div className={`${styles.margint25}`}><img className={styles.cmimg} src={images[2]} /></div>
+                                <div className={`${styles.pdh} ${styles.mr20}`}>Product Description</div>
+                                <div className={`${styles.pd} ${styles.mt42}`}>100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.</div>
+                                <div className={`${styles.bbox} ${styles.mt42} ${styles.bbt}`}>JPEG</div>
                             </div>
                             <div className={`${styles.marginr25}`}></div>
                             <div > <img className={styles.abtimg} src={images[2]} /></div>
@@ -140,15 +99,46 @@ export const Product = () => {
 
 
                         </div>
-                        <div className={`${styles.margint42} ${styles.btn} `}>
-                            <div className={` ${styles.btnt} `}>See more</div>
+
+                    </div>
+                </div>
+                <div className={` ${styles.content} ${styles.cont} ${styles.mt100} `}>
+                    <div className={styles.inlineflex}>
+                        <div className={` ${styles.box}`}></div>
+                        <div className={`${styles.pdh} ${styles.mr20} `}>Similar Products</div>
+                    </div>
+                    <div></div>
+                    <div className={`${styles.df} ${styles.sb}`}>
+                        <div className={styles.db}>
+                            <div className={` ${styles.mt42} ${styles.inlineflex}`}>
+                                <img className={styles.spimg} src={images[2]} />
+                            </div>
+                            <div className={` ${styles.mt42} ${styles.db} ${styles.spt}`}>XTAS-238</div>
+                        </div>
+
+                        <div className={styles.db}>
+                            <div className={` ${styles.mt42} ${styles.inlineflex}`}>
+                                <img className={styles.spimg} src={images[2]} />
+                            </div>
+                            <div className={` ${styles.mt42} ${styles.db} ${styles.spt}`}>XTAS-238</div>
+                        </div>
+
+                        <div className={styles.db}>
+                            <div className={` ${styles.mt42} ${styles.inlineflex}`}>
+                                <img className={styles.spimg} src={images[2]} />
+                            </div>
+                            <div className={` ${styles.mt42} ${styles.db} ${styles.spt}`}>XTAS-238</div>
+                        </div>
+
+                        <div className={styles.db}>
+                            <div className={` ${styles.mt42} ${styles.inlineflex}`}>
+                                <img className={styles.spimg} src={images[2]} />
+                            </div>
+                            <div className={` ${styles.mt42} ${styles.db} ${styles.spt}`}>XTAS-238</div>
                         </div>
                     </div>
-
-
                 </div>
-
-
+                <div className={` ${styles.content} ${styles.cont} ${styles.mt100} `}></div>
             </div>
 
 

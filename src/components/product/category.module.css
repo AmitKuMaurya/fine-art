@@ -439,7 +439,7 @@
 
 .bluebutton {
     display: flex;
-    width: 351px;
+    width: 251px;
     padding: 20px 24px;
     justify-content: center;
     align-items: center;
@@ -465,7 +465,7 @@
 
 .bluebutton2 {
     display: flex;
-    width: 351px;
+    width: 251px;
     padding: 20px 24px;
     justify-content: center;
     align-items: center;
@@ -483,4 +483,91 @@
     font-weight: 700;
     line-height: 40px;
     /* 166.667% */
+}
+
+.mt100 {
+    margin-top: 100px !important;
+}
+
+.pdh {
+    color: #3C4242;
+    font-family: Poppins;
+    font-size: 37.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44.667px;
+    /* 119.643% */
+    letter-spacing: 0.747px;
+}
+
+.box {
+    border-radius: 13.333px;
+    background: #2B3B8C;
+    width: 8px;
+    height: 37.333px;
+}
+
+.mr20 {
+    margin-left: 20px;
+}
+
+.pd {
+    color: #807D7E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.333px;
+    /* 166.667% */
+    letter-spacing: 0.4px;
+}
+
+.mt42 {
+    margin-top: 42px;
+}
+
+.bbox {
+    border-radius: 16px;
+    opacity: 0.6;
+    background: #F6F6F6;
+    width: 816px;
+    height: 246.667px;
+    flex-shrink: 0;
+}
+
+.bbt {
+    color: #807D7E;
+    font-family: Poppins;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.333px;
+    /* 100% */
+    letter-spacing: 0.427px;
+}
+
+.cont {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.spimg {
+    width: 256px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray -114.222px 0px / 174.941% 100% no-repeat;
+}
+
+.spt {
+    color: #3C4242;
+    font-family: Poppins;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sb {
+    justify-content: space-between;
 }
