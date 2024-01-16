@@ -14,7 +14,7 @@
 
 .heading {
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 66.667px;
     font-style: normal;
     font-weight: 700;
@@ -43,7 +43,7 @@
 
 .text {
     color: #202020;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -53,7 +53,7 @@
 
 .textItalic {
     color: #202020;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
@@ -75,7 +75,7 @@
 
 .divhead {
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 37.333px;
     font-style: normal;
     font-weight: 700;

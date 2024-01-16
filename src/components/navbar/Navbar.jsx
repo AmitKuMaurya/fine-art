@@ -52,7 +52,9 @@ const Navbar = () => {
           {/* wishlist, user and cart Logo */}
           <div className={styles.icons}>
             <GrFavorite size={26} color="white" />
+            <Link style={underlineStyles} to={'/sign-up'}>
             <LiaUser size={26} color="white" />
+            </Link>
             <Link style={underlineStyles} to={'/cart'}>
             <PiHandbag size={26} color="white" />
             </Link>

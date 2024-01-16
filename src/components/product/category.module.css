@@ -14,7 +14,7 @@
 
 .heading {
     color: #1E1E1E;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 48.75px;
     font-style: normal;
     font-weight: 700;
@@ -71,7 +71,7 @@
 
 .text {
     color: #202020;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +81,7 @@
 
 .textItalic {
     color: #202020;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
@@ -103,7 +103,7 @@
 
 .divhead {
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 37.333px;
     font-style: normal;
     font-weight: 700;
@@ -155,7 +155,7 @@
     align-items: center;
     justify-content: center;
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 66.667px;
     font-style: normal;
     font-weight: 700;
@@ -167,7 +167,7 @@
     align-items: center;
     justify-content: center;
     color: #202020;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -201,7 +201,7 @@
 
 .head3 {
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 66.667px;
     font-style: normal;
     font-weight: 700;
@@ -210,7 +210,7 @@
 
 .test3 {
     color: #000;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -240,7 +240,7 @@
 .disf {
     color: #202020;
     text-align: center;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 37.5px;
     font-style: normal;
     font-weight: 500;
@@ -252,7 +252,7 @@
 
 .heading2 {
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 37.5px;
     font-style: normal;
     font-weight: 700;
@@ -287,7 +287,7 @@
 
 .btnt {
     color: #2B3B8C;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 33.75px;
     font-style: normal;
     font-weight: 500;
@@ -304,7 +304,7 @@
 
 .phed {
     color: var(--Dark, #13101E);
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 38.924px;
     font-style: normal;
     font-weight: 600;
@@ -314,7 +314,7 @@
 
 .pshed {
     color: var(--Type-Low-Emphasis, #626262);
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 22.897px;
     font-style: normal;
     font-weight: 600;
@@ -346,7 +346,7 @@
 .tagname {
     color: var(--Light-100, #FFF);
     text-align: center;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 11.932px;
     font-style: normal;
     font-weight: 700;
@@ -360,7 +360,7 @@
 
 .price {
     color: var(--Type-High-Emphasis, #171520);
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 45.793px;
     font-style: normal;
     font-weight: 700;
@@ -371,7 +371,7 @@
 .pricecut {
     color: var(--Light-Text, #B6B6B6);
     text-align: right;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 38.924px;
     font-style: normal;
     font-weight: 600;
@@ -393,7 +393,7 @@
 .disc {
     color: var(--Major-Vibrant, #FF404B);
     text-align: right;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 22.897px;
     font-style: normal;
     font-weight: 600;
@@ -411,7 +411,7 @@
 
 .type {
     color: var(--Type-High-Emphasis, #171520);
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 22.897px;
     font-style: normal;
     font-weight: 600;
@@ -425,7 +425,7 @@
 
 .typename {
     color: var(--Type-Low-Emphasis, #626262);
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 18.317px;
     font-style: normal;
     font-weight: 500;
@@ -451,7 +451,7 @@
 .btntext {
     color: var(--Light-100, #FFF);
     text-align: center;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -477,7 +477,7 @@
 .btntext2 {
     color: #2B3B8C;
     text-align: center;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -491,7 +491,7 @@
 
 .pdh {
     color: #3C4242;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 37.333px;
     font-style: normal;
     font-weight: 400;
@@ -513,7 +513,7 @@
 
 .pd {
     color: #807D7E;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -537,7 +537,7 @@
 
 .bbt {
     color: #807D7E;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 21.333px;
     font-style: normal;
     font-weight: 400;
@@ -561,7 +561,7 @@
 
 .spt {
     color: #3C4242;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 21.333px;
     font-style: normal;
     font-weight: 400;
