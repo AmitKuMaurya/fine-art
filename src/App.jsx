@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <AllRoutes />
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }
