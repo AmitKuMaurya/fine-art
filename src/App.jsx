@@ -1,16 +1,14 @@
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
-import { AllRoutes } from './components/routes/AllRoutes'
-// import { HomePage } from './components/home/HomePage';
-
+import {Outlet} from "react-router-dom";
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <AllRoutes />
+      <Outlet/>
       <Footer/>
     </>
   )
