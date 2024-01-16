@@ -8,6 +8,7 @@ import { Login } from '../login/Login.jsx';
 import { Category } from "../category/Category.jsx"
 import { Product } from "../product/Product.jsx"
 import { Pricing } from "../pricing/Pricing.jsx"
+import { Cart } from "../cart/Cart.jsx"
 import SignUp from '../sign_up/SignUp.jsx';
 
 export const AllRoutes = () => {
@@ -23,6 +24,7 @@ export const AllRoutes = () => {
         <Route path='category' element={<Category />} />
         <Route path='Product' element={<Product />} />
         <Route path='Pricing' element={<Pricing />} />
+        <Route path='Cart' element={<Cart />} />
       </Routes>
     </>
   )
