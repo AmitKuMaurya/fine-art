@@ -21,16 +21,16 @@ const Navbar = () => {
               <Link style={underlineStyles}>
                 <li className={styles.text}>Designs</li>
               </Link>
-              <Link style={underlineStyles}>
+              <Link style={underlineStyles} to={"/category"}>
                 <li className={styles.text}>Categories</li>
               </Link>
-              <Link style={underlineStyles}>
+              <Link style={underlineStyles} to={'/pricing'}>
                 <li className={styles.text}>Pricing</li>
               </Link>
-              <Link style={underlineStyles}>
+              <Link style={underlineStyles} >
                 <li className={styles.text}>Trends</li>
               </Link>
-              <Link style={underlineStyles}>
+              <Link style={underlineStyles} to={'/about-us'}>
                 <li className={styles.text}>About Us</li>
               </Link>
             </ul>
@@ -53,7 +53,9 @@ const Navbar = () => {
           <div className={styles.icons}>
             <GrFavorite size={26} color="white" />
             <LiaUser size={26} color="white" />
+            <Link style={underlineStyles} to={'/cart'}>
             <PiHandbag size={26} color="white" />
+            </Link>
           </div>
         </nav>
       </div>

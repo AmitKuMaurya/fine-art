@@ -22,35 +22,36 @@ const Footer = () => {
               <ul className={styles.left_list}>
                 <li>INFORMATION</li>
 
-                  <Link style={underlineStyles}>
-                <li className={styles.text}>
+
+                <Link style={underlineStyles} to={"/privacy-policy"}>
+                  <li className={styles.text}>
                     Privacy
-                </li>
-                    </Link>
+                  </li>
+                </Link>
 
-                  <Link style={underlineStyles}>
-                <li className={styles.text}>
+                <Link style={underlineStyles}>
+                  <li className={styles.text}>
                     FAQ
-                </li >
-                    </Link>
+                  </li >
+                </Link>
 
-                  <Link style={underlineStyles}>
-                <li className={styles.text}>
+                <Link style={underlineStyles}>
+                  <li className={styles.text}>
                     About Us
-                </li>
-                    </Link>
+                  </li>
+                </Link>
 
-                  <Link style={underlineStyles}>
-                <li className={styles.text}>
+                <Link style={underlineStyles}>
+                  <li className={styles.text}>
                     Blog
-                </li>
-                    </Link>
+                  </li>
+                </Link>
 
-                  <Link style={underlineStyles} to={"/contact-us"}>
-                <li className={styles.text}>
+                <Link style={underlineStyles} to={"/contact-us"}>
+                  <li className={styles.text}>
                     Contact Us
-                </li>
-                  </Link>
+                  </li>
+                </Link>
               </ul>
             </div>
             <div>

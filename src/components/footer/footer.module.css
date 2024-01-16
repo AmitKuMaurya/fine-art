@@ -1,7 +1,7 @@
 .footContainer {
     /* max-width: 90vw; */
     margin: auto;
-    background-color: rgb(43,59,140);
+    background-color: rgb(43, 59, 140);
     padding: 3% 3% 3% 3%;
 }
 
@@ -12,42 +12,48 @@
     border-radius: 15px;
     flex-direction: column;
 }
-.topHeader >  div:nth-child(1) {
+
+.topHeader>div:nth-child(1) {
     display: grid;
     grid-template-columns: 30% 20% 39% 10%;
     grid-template-rows: auto auto auto auto;
     /* border: 1px solid red; */
 }
-.topHeader >  div:nth-child(1) > div:first-child {
+
+.topHeader>div:nth-child(1)>div:first-child {
     padding: 3% 3% 3% 3%;
 }
-.topHeader >  div:nth-child(1) > div:first-child > img {
+
+.topHeader>div:nth-child(1)>div:first-child>img {
     width: 25%;
     object-fit: cover contain;
 }
-.left_list > li:nth-child(1) {
+
+.left_list>li:nth-child(1) {
     list-style: none;
     padding-bottom: 2vh;
-    color: rgb(190,188,189);
+    color: rgb(190, 188, 189);
     font-size: small;
 }
-.left_list > li{
+
+.left_list>li {
     list-style: none;
 }
 
-.details > button{
+.details>button {
     padding: 10px 18px;
     font-size: small;
     color: white;
     border: none;
     border-radius: 3px;
-    background-color: rgb(43,59,140);
+    background-color: rgb(43, 59, 140);
 }
-.details > button:hover {
+
+.details>button:hover {
     cursor: pointer;
 }
 
-.details > h5:last-child {
+.details>h5:last-child {
     margin-top: -2vh;
 
 }
@@ -56,17 +62,18 @@
     color: black;
     list-style: none;
 }
-.text:hover{
+
+.text:hover {
     list-style-type: circle;
 }
 
-.topHeader >  div:nth-child(2) {
+.topHeader>div:nth-child(2) {
     /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 32% 15% 35% 18%;
 }
 
-.topHeader >  div:nth-child(2) > div:nth-child(1) {
+.topHeader>div:nth-child(2)>div:nth-child(1) {
     max-width: 15vw;
     /* padding: 0 0 0 5%; */
     display: flex;
@@ -74,7 +81,7 @@
     justify-content: space-evenly;
 }
 
-.topHeader >  div:nth-child(2) > div:nth-child(1):hover {
+.topHeader>div:nth-child(2)>div:nth-child(1):hover {
     cursor: pointer;
 }
 
@@ -89,7 +96,7 @@
     justify-content: space-between;
 }
 
-.bottom_header > div:nth-child(1) {
+.bottom_header>div:nth-child(1) {
     /* color: red; */
     /* border: 1px solid red; */
     color: white;
@@ -97,7 +104,8 @@
     font-weight: bolder;
     line-height: 90%;
 }
-.bottom_header > div:nth-child(2) {
+
+.bottom_header>div:nth-child(2) {
     /* color: red; */
     display: flex;
     flex-direction: column;
@@ -106,19 +114,23 @@
     color: white;
 }
 
-.bottom_header > div:nth-child(2) > input {
+.bottom_header>div:nth-child(2)>input {
     width: 80vh;
     margin-top: 1vh;
     padding: 3% 3% 3% 3%;
     background-color: transparent;
     border: 1px solid white;
-    color: rgb(236,237,243);
+    color: rgb(236, 237, 243);
     font-size: medium;
     border-radius: 12px;
     outline: none;
 }
 
-.footContainer > div:last-child {
-    color: rgb(210,214,218);
+.footContainer>div:last-child {
+    color: rgb(210, 214, 218);
     font-size: small;
-} 
+}
+
+.LinkBlack {
+    color: black !important;
+}
